@@ -6,7 +6,6 @@ taskData =  require('../../src/tasks.json');
 const path = require('path');
 const fs = require('fs');
 
-http://localhost:3000/tasks/?status=done
 router.get("/", async (req, res) => {
 
     const { status } = req.query;
