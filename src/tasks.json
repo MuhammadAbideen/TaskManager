@@ -6,7 +6,7 @@
         "description": "Build a RESTful API for a restaurant",
         "due": "december",
         "type": "bug",
-        "priority": "High"
+        "priority": "high"
     },
     {
         "name": "bug_2",
@@ -15,6 +15,15 @@
         "description": "Build a RESTful API for a hotel",
         "due": "November",
         "type": "task",
-        "priority": "critical"
+        "priority": "low"
+    },
+    {
+        "name": "bug_3",
+        "id": 3,
+        "created": "3.0.0",
+        "description": "Build a RESTful API for a swiggy",
+        "due": "November",
+        "type": "task",
+        "priority": "medium"
     }
 ]

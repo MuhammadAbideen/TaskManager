@@ -21,6 +21,21 @@ router.get("/:id", async (req, res) => {
     return res.status(200).send(result[0]);
 });
 
+
+router.get("/priority/:level", async (req, res) => {
+    const { level } = req.params;
+    
+    const priorityLevel = level.toLowerCase();
+    const tasksByPriority = taskData.filter(task => task.priority === priorityLevel);
+
+    if (tasksByPriority.length === 0) {
+        return res.status(404).send("No tasks found with this priority level");
+    }
+
+    return res.status(200).send(tasksByPriority);
+});
+
+
 const haveSameKeys = (obj1, obj2) => {
     const keys1 = Object.keys(obj1).sort();
     const keys2 = Object.keys(obj2).sort();

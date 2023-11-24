@@ -39,6 +39,10 @@ Updates an existing task based on its ID. The request body should contain the up
 
 Deletes a task based on its ID.
 
+#### `GET /tasks/priority/:level`
+
+This endpoint allows retrieval of tasks based on their priority level.
+
 ### Error Handling
 
 - `404 Not Found`: Returned when attempting to access a non-existent task.
