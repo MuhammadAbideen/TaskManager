@@ -1,0 +1,20 @@
+[
+    {
+        "name": "bug_1",
+        "id": 1,
+        "created": "1.0.0",
+        "description": "Build a RESTful API for a restaurant",
+        "due": "december",
+        "type": "bug",
+        "priority": "High"
+    },
+    {
+        "name": "bug_2",
+        "id": 2,
+        "created": "2.0.0",
+        "description": "Build a RESTful API for a hotel",
+        "due": "November",
+        "type": "task",
+        "priority": "critical"
+    }
+]
