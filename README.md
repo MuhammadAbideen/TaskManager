@@ -23,6 +23,9 @@ This RESTful API provides endpoints for managing tasks.
 
 Retrieves all tasks stored in the system.
 
+- `status` (Optional): Filters tasks based on their status.
+- #### Example GET /tasks?status=done
+
 #### `GET /tasks/:id`
 
 Retrieves a specific task by its unique ID.
